@@ -1,4 +1,4 @@
-const router = require('express').router();
+const router = require('express').Router();
 
 // http://localhost:3001/profile/admin
 router.get("./admin",(req,res)=>{

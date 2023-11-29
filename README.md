@@ -122,11 +122,4 @@ This Challenge is graded based on the following criteria:
 
 ## Review
 
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
-
----
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+https://github.com/dsternthal/Challenge14_TechBlog

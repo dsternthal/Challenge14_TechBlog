@@ -1,13 +1,16 @@
 const User = require('./User');
-const Project = require('./Project');
+const Post = require('./Post');
 
-User.hasMany(Project, {
+//setting the type of relationship
+//one to many
+User.hasMany(Post, {
   foreignKey: 'user_id',
   onDelete: 'CASCADE'
 });
 
-Project.belongsTo(User, {
+//linking parent and child toether
+Post.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
-module.exports = { User, Project };
+module.exports = { User, Post };
